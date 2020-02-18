@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_desciption"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp">
+
+    <ImageView
+        android:id="@+id/tv_image_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY" />
+
+    <TextView
+        style="@style/TextTitle.Main"
+        android:id="@+id/tvDataName"
+        android:layout_below="@+id/tv_image_description"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/DataName" />
+
+    <TextView
+        style="@style/TextTitle.Sub"
+        android:id="@+id/tvDataLatinName"
+        android:layout_below="@+id/tvDataName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:text="@string/DataLatinName" />
+
+    <TextView
+        style="@style/TextTitle.Content"
+        android:id="@+id/tvDataDescription"
+        android:layout_below="@+id/tvDataLatinName"
+        android:layout_marginTop="20dp"
+        android:text="@string/DataDescription" />
+
+    <Button
+        android:focusable="true"
+        android:clickable="true"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:onClick="goToLink"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tvDataDescription"
+        android:layout_centerHorizontal="true"
+        android:text="@string/direct_link"
+        style="@style/ButtonGeneral"/>
+
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>s
+    <color name="colorPrimary">#607D8B</color>
+    <color name="colorPrimaryDark">#455A64</color>
+    <color name="colorAccent">#258bd6</color>
+
+    <color name="colorSubTitle">#757575</color>
+
+    <color name="bg_noon">#f6f6f6</color>
+    <color name="bg_night">#0e0e0e</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Tanaman Obat Tradisional</string>
+    <string name="plants_name">Nama Tanaman Obat</string>
+    <string name="detail">Detail Tanaman Obat</string>
+    <string name="latins_name">Nama Latin Tanaman Obat</string>
+    <string name="data_received">Data Receives</string>
+    <string name="direct_link">Pelajari Lebih Lanjut</string>
+    <string name="DataDescription">Data Description</string>
+    <string name="DataLatinName">Data Latin Name</string>
+    <string name="DataName">Data Name</string>
+    <string name="Name">Rendra Pratama</string>
+    <string name="Contact">Kontak</string>
+    <string name="ProfileName">Rendra Pratama</string>
+    <string name="TProfileName">Nama</string>
+    <string name="Temail">E-mail</string>
+    <string name="email">rendranets@gmail.com</string>
+    <string name="Ttelp">No. Telpon</string>
+    <string name="telp">081388852539</string>
+    <string name="profile_picture">Profile Picture</string>
+</resources>
